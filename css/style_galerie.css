@@ -1,0 +1,30 @@
+.carré-1 , .carré-2 , .carré-3{
+background-color: #dab499;;
+height: 100px;
+width: auto;
+display: flex;
+flex-flow: column;
+justify-content: center;
+align-items: center;
+color : white;
+}
+
+
+@media screen and (min-width: 480px) {
+    .grille-galerie {
+    display: flex;
+    width: 200px; 
+    flex-flow: row;
+    align-items: flex-start;
+    /* overflow-x:auto;  */
+   
+    }
+    .carré-1 , .carré-2 , .carré-3{
+        background-color: #dab499;;
+        height: 270px;
+        width: 200px;
+  }
+
+  
+
+
