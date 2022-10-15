@@ -12,6 +12,7 @@ body {
 /* ---BANIERE---------------------------------------------------------------- */
 
 header {
+  z-index: 3;
   position: sticky;
   top: 0px;
 }
@@ -66,6 +67,7 @@ h2 {
 .navbar {
   height: auto;
   display: flex;
+  background-color: white;
 }
 
 .navbar li {
