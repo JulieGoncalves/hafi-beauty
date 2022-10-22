@@ -6,7 +6,6 @@
 
 body {
   font-family: Roboto;
-  color: rgb(82, 55, 59);
 }
 
 /* ---HEADER--- */
@@ -80,7 +79,7 @@ h2 {
   margin: 0.1em 0.4rem;
 }
 
-ul {
+ul.menu-items {
   display: inline-grid;
   margin: 0px auto;
   width: fit-content;
@@ -94,4 +93,12 @@ a {
   font-weight: bold;
   font-size: 0.8rem;
   letter-spacing: 0.1rem;
+}
+
+/*---MEDIA-QUERY---------------------------------*/
+
+@media screen and (min-width: 480px) {
+  ul.menu-items {
+    display: flex;
+  }
 }

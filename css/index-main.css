@@ -8,7 +8,6 @@
 
 img {
   width: 100%;
-  margin: 0.5rem;
 }
 
 h3 {
@@ -64,7 +63,6 @@ main {
 .offre {
   margin-top: 20px;
   border: solid black 1px;
-  /* max-height: 336px; */
 }
 
 .duree-soins-visage {
@@ -92,25 +90,22 @@ main {
 .exeption {
   text-align: left;
   white-space: pre-line;
-  /* white-space:nowrap; */
   margin-top: -1rem;
 }
 
-
-@media screen and (max-width: 780px) {
+/* @media screen and (max-width: 780px) { */
   div.superposition {
     position: relative;
     height: auto;
     height: 0;
     width: 90%;
     padding-bottom: 90%;
-    margin-left: 30px;
-    /* transform: translateX(10%); */
+    margin-left: 7.5%;
     background-color: #de9b77f1;
   }
 
   div.superposition div.image {
-    transform: translateY(10%) translateX(-10%);
+    transform: translateY(6%) translateX(-6%);
   }
 
   div.superposition img {
@@ -132,17 +127,30 @@ main {
   div.superposition-titre h4 {
     margin: 0px;
   }
+
+@media screen and (min-width: 780px) {
+  .container-type2 {
+    /* border: 2px solid black; */
+    text-align: center;
+    vertical-align:middle;
+    margin-top: 90px;
+     }
+  
+  .container-parent{
+    margin: 0 5%;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    }
 }
 
+@media screen and (min-width: 1200px) {
+  .container-parent{
+   margin: 0 9%;
+    }
+}
 
 
 /* ---MEDIA-QUERY------------------------------------------------------------------ */
-
-@media screen and (min-width: 480px) {
-  ul {
-    display: flex;
-  }
-}
 
 body {
   font-family: "Nunito", sans-serif;
@@ -151,6 +159,6 @@ body {
   line-height: 1.6;
 }
 
-div {
+/* div {
   border: 1px solid red;
-}
+} */
