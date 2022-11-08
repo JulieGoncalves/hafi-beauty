@@ -1,5 +1,12 @@
 /* ---MAIN-------------------------------------------------------*/
 
+body {
+  font-family: "Nunito", sans-serif;
+  color: #333;
+  font-weight: 300;
+  line-height: 1.6;
+}
+
 .ligne {
   height: 0.1rem;
   background-color: rgb(182, 105, 105);
@@ -61,13 +68,15 @@ main {
 }
 
 .offre {
+  border-left: solid black 2px;
+  padding: 20px;
   margin-top: 20px;
-  border: solid black 1px;
+  /* border: solid black 1px;*/
 }
 
 .duree-soins-visage {
-  margin-top: 20px;
-  border: solid black 1px;
+  margin-top: 40px;
+  /* border: solid black 1px;*/
   text-align: right;
   min-height: 288px;
 }
@@ -93,17 +102,6 @@ main {
   margin-top: -1rem;
 }
 
-/* @media screen and (max-width: 780px) { */
-  div.superposition {
-    position: relative;
-    height: auto;
-    height: 0;
-    width: 90%;
-    padding-bottom: 90%;
-    margin-left: 7.5%;
-    background-color: #de9b77f1;
-  }
-
   div.superposition div.image {
     transform: translateY(6%) translateX(-6%);
   }
@@ -128,12 +126,14 @@ main {
     margin: 0px;
   }
 
+/* ---MEDIA-QUERY------------------------------------------------------------------ */
+
 @media screen and (min-width: 780px) {
   .container-type2 {
     /* border: 2px solid black; */
-    text-align: center;
+    /* text-align: center; */
     vertical-align:middle;
-    margin-top: 90px;
+    /* margin-top: 90px; */
      }
   
   .container-parent{
@@ -141,24 +141,30 @@ main {
     display: grid;
     grid-template-columns: 1fr 1fr;
     }
+
+    .exeption {
+      text-align: center;
+    }
+
 }
 
 @media screen and (min-width: 1200px) {
   .container-parent{
    margin: 0 9%;
     }
+
+  .exeption {
+  text-align: center;
+    }
 }
 
-
-/* ---MEDIA-QUERY------------------------------------------------------------------ */
-
-body {
-  font-family: "Nunito", sans-serif;
-  color: #333;
-  font-weight: 300;
-  line-height: 1.6;
-}
-
-/* div {
-  border: 1px solid red;
-} */
+/* @media screen and (max-width: 780px) { */
+  div.superposition {
+    position: relative;
+    height: auto;
+    height: 0;
+    width: 90%;
+    padding-bottom: 90%;
+    margin-left: 7.5%;
+    background-color: #de9b77f1;
+  }
