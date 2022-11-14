@@ -143,19 +143,26 @@ main {
     }
 
     .exeption {
-      text-align: center;
+      text-align:left;
     }
 
+    .container-parent {
+      margin-bottom: 50px;
+    }
 }
 
 @media screen and (min-width: 1200px) {
   .container-parent{
    margin: 0 9%;
+   margin-bottom: 80px;
     }
 
   .exeption {
-  text-align: center;
+  text-align: left;
     }
+
+  .offre-type2 {
+   vertical-align: middle;
 }
 
 /* @media screen and (max-width: 780px) { */
