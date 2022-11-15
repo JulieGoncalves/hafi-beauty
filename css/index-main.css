@@ -37,7 +37,6 @@ h5 {
 }
 
 main {
-  margin: 0.6rem;
   letter-spacing: 0.1rem;
 }
 
@@ -60,7 +59,6 @@ main {
 }
 
 .offre-type2 {
-  margin-top: 30px;
   padding: 20px;
   border-left: solid black 2px;
   display: grid;
@@ -76,102 +74,135 @@ main {
 
 .duree-soins-visage {
   margin-top: 40px;
-  /* border: solid black 1px;*/
   text-align: right;
   min-height: 288px;
 }
 
 .duree-soins-corps {
-  margin-top: 20px;
-  border: solid black 1px;
+  margin-top: 40px;
   text-align: right;
   height: 1px;
 }
 
-.exept1 {
-  margin-bottom: 1rem;
+div.superposition div.image {
+  transform: translateY(6%) translateX(-6%);
 }
 
-.exept2 {
-  margin-top: 2rem;
+div.superposition img {
+  width: 100%;
 }
 
-.exeption {
-  text-align: left;
-  white-space: pre-line;
-  margin-top: -1rem;
+div.superposition-titre {
+  position: absolute;
+  right: 0px;
+
+  top: 50px;
+  color: rgb(2, 2, 2);
+  background-color: rgb(255, 255, 255, 0.8);
+  z-index: 2;
+  padding: 0.4rem;
+  font-size: larger;
 }
 
-  div.superposition div.image {
-    transform: translateY(6%) translateX(-6%);
-  }
+div.superposition-titre h4 {
+  margin: 0px;
+}
 
-  div.superposition img {
-    width: 100%;
-  }
+div.superposition {
+  position: relative;
+  height: auto;
+  height: 0;
+  width: 90%;
+  padding-bottom: 90%;
+  margin-left: 7.5%;
+  background-color: #de9b77f1;
+} 
 
-  div.superposition-titre {
-    position: absolute;
-    right: 0px;
+/*---------------------------------*/
 
-    top: 50px;
-    color: rgb(2, 2, 2);
-    background-color: rgb(255, 255, 255, 0.8);
-    z-index: 2;
-    padding: 0.4rem;
-    font-size: larger;
-  }
+.bouton {
+  margin: 40px;
+  text-align: center;
+}
 
-  div.superposition-titre h4 {
-    margin: 0px;
-  }
+.bouton a {
+  font-size: 1em;
+}
 
 /* ---MEDIA-QUERY------------------------------------------------------------------ */
 
+@media screen and (max-width: 780px) {
+  .container-parent {
+    margin-bottom: 20px;
+  }
+
+  .exeption {
+    text-align: left;
+  }
+
+  .offre-type2 {
+    vertical-align: middle;
+  }
+
+  main {
+    margin : 0 5%;
+  }
+
+  .exeption {
+    text-align: left;
+    /* white-space: pre-line; */
+    margin-top: -1rem;
+    line-break: strict;
+    /* white-space: nowrap; */
+    
+}
+
+/*--------------------------*/
+
 @media screen and (min-width: 780px) {
   .container-type2 {
-    /* border: 2px solid black; */
-    /* text-align: center; */
-    vertical-align:middle;
-    /* margin-top: 90px; */
-     }
-  
-  .container-parent{
+    vertical-align: middle;
+  }
+
+  .container-parent {
     margin: 0 5%;
     display: grid;
     grid-template-columns: 1fr 1fr;
-    }
-
-    .exeption {
-      text-align:left;
-    }
-
-    .container-parent {
-      margin-bottom: 50px;
-    }
-}
-
-@media screen and (min-width: 1200px) {
-  .container-parent{
-   margin: 0 9%;
-   margin-bottom: 80px;
-    }
+    margin-bottom: 50px;
+  }
 
   .exeption {
-  text-align: left;
-    }
+    text-align: left;
+  }
 
-  .offre-type2 {
-   vertical-align: middle;
+  .container-type2 {
+    margin-left : 6%;
+  }
 }
 
-/* @media screen and (max-width: 780px) { */
-  div.superposition {
-    position: relative;
-    height: auto;
-    height: 0;
-    width: 90%;
-    padding-bottom: 90%;
-    margin-left: 7.5%;
-    background-color: #de9b77f1;
+/*-------------------------*/
+
+@media screen and (min-width: 1200px) {
+  .container-parent {
+    margin: 0 9%;
+    margin-bottom: 80px;
   }
+
+  .exeption {
+    text-align: left;
+  }
+
+  .offre-type2 {
+    vertical-align: middle;
+  }
+
+  .container-type2 {
+    margin-left : 10%;
+  }
+}
+
+
+
+
+
+
