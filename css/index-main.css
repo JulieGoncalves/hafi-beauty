@@ -40,14 +40,6 @@ main {
   letter-spacing: 0.1rem;
 }
 
-.exept1 {
-  margin-top: 1rem;
-}
-
-.exept2 {
-  margin-top: 2rem;
-}
-
 .container-type1,
 .container-type2 {
   margin: 0.7rem;
@@ -89,10 +81,8 @@ main {
 }
 
 .duree-soins-corps {
-  background-color: blanchedalmond;
   margin-top: 40px;
   text-align: right;
-  height: 1px;
 }
 
 div.superposition div.image {
@@ -147,7 +137,7 @@ div.superposition {
     margin-bottom: 20px;
   }
 
-  .exeption {
+  .exception {
     text-align: left;
   }
 
@@ -159,12 +149,20 @@ div.superposition {
     margin: 0 5%;
   }
 
-  .exeption {
+  .exception {
     text-align: left;
     /* white-space: pre-line; */
     margin-top: -1rem;
     line-break: strict;
     /* white-space: nowrap; */
+  }
+
+  .except1 {
+    margin-top: 1rem;
+  }
+
+  .except2 {
+    margin-top: 2rem;
   }
 }
 
@@ -183,12 +181,16 @@ div.superposition {
     margin-bottom: 50px;
   }
 
-  .exeption {
+  .exception {
     text-align: left;
   }
 
   .container-type2 {
     margin-left: 6%;
+  }
+
+  .inline {
+    display: inline;
   }
 }
 
@@ -200,7 +202,7 @@ div.superposition {
     margin-bottom: 80px;
   }
 
-  .exeption {
+  .exception {
     text-align: left;
   }
 
@@ -210,5 +212,9 @@ div.superposition {
 
   .container-type2 {
     margin-left: 10%;
+  }
+
+  .inline {
+    display: inline;
   }
 }
