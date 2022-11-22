@@ -13,6 +13,30 @@ gulp.task("index", function () {
     .pipe(gulp.dest("./"));
 });
 
+gulp.task("galerie", function () {
+  gulp
+    .src(["./pages/galerie.html"])
+    .pipe(
+      fileinclude({
+        prefix: "@@",
+        basepath: "@file",
+      })
+    )
+    .pipe(gulp.dest("./"));
+});
+
+gulp.task("conseils_beaute", function () {
+  gulp
+    .src(["./pages/conseils_beaute.html"])
+    .pipe(
+      fileinclude({
+        prefix: "@@",
+        basepath: "@file",
+      })
+    )
+    .pipe(gulp.dest("./"));
+});
+
 gulp.task("produits", function () {
   gulp
     .src(["./pages/produits.html"])
