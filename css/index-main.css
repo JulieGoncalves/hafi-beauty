@@ -137,10 +137,6 @@ div.superposition {
     margin-bottom: 20px;
   }
 
-  .exception {
-    text-align: left;
-  }
-
   .offre-type2 {
     vertical-align: middle;
   }
@@ -170,8 +166,14 @@ div.superposition {
 
 @media screen and (min-width: 780px) {
   .container-type2 {
+    font-size: 1rem;
     vertical-align: middle;
     margin-left: 6%;
+    line-height: 2.2em;
+  }
+
+  .container-type1 {
+    font-size: 1rem;
   }
 
   .container-parent {
@@ -182,11 +184,7 @@ div.superposition {
   }
 
   .exception {
-    text-align: left;
-  }
-
-  .container-type2 {
-    margin-left: 6%;
+    margin-top: -1.1rem;
   }
 
   .inline {
@@ -203,7 +201,7 @@ div.superposition {
   }
 
   .exception {
-    text-align: left;
+    margin-top: -1rem;
   }
 
   .offre-type2 {
@@ -212,9 +210,14 @@ div.superposition {
 
   .container-type2 {
     margin-left: 10%;
+    line-height: 2.5em;
   }
 
-  .inline {
+  .inline, .inline2  {
     display: inline;
+  }
+
+  .except3 {
+    margin-top: -10px;
   }
 }
