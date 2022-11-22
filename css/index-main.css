@@ -190,6 +190,18 @@ div.superposition {
   .inline {
     display: inline;
   }
+  
+  .except3 {
+    margin-top: 1rem;
+  }
+
+  .except2 {
+    margin-top: 2rem;
+  }
+
+  .except4 {
+    margin-top: -1rem;
+  }
 }
 
 /*-------------------------*/
@@ -217,7 +229,7 @@ div.superposition {
     display: inline;
   }
 
-  .except3 {
-    margin-top: -10px;
+  .except4 {
+    margin-top: -1rem;
   }
 }
