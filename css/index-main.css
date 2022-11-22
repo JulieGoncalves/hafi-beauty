@@ -69,12 +69,9 @@ main {
   border-left: solid black 2px;
   padding: 20px;
   margin-top: 20px;
-  /* border: solid black 1px;*/
-  background-color: red;
 }
 
 .duree-soins-visage {
-  background-color: blanchedalmond;
   margin-top: 40px;
   text-align: right;
   min-height: 288px;
@@ -147,10 +144,8 @@ div.superposition {
 
   .exception {
     text-align: left;
-    /* white-space: pre-line; */
     margin-top: -1rem;
     line-break: strict;
-    /* white-space: nowrap; */
   }
 
   .except1 {
@@ -174,6 +169,7 @@ div.superposition {
 
   .container-type1 {
     font-size: 1rem;
+    line-height: 2.2em;
   }
 
   .container-parent {
@@ -190,7 +186,7 @@ div.superposition {
   .inline {
     display: inline;
   }
-  
+
   .except3 {
     margin-top: 1rem;
   }
@@ -213,23 +209,32 @@ div.superposition {
   }
 
   .exception {
-    margin-top: -1rem;
+    margin-top: -0.8rem;
   }
 
-  .offre-type2 {
+  /* .offre-type2 {
     vertical-align: middle;
-  }
+  } */
 
   .container-type2 {
     margin-left: 10%;
     line-height: 2.5em;
   }
 
-  .inline, .inline2  {
+  .inline,
+  .inline2 {
     display: inline;
   }
 
   .except4 {
-    margin-top: -1rem;
+    margin-top: -1.2rem;
+  }
+
+  .except3 {
+    margin-top: 0rem;
+  }
+
+  .except2 {
+    margin-top: 1.4rem;
   }
 }
