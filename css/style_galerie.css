@@ -1,3 +1,8 @@
+
+* {
+    background-color: red;
+}
+
 .carré-1 , .carré-2 , .carré-3{
 background-color: #dab499;;
 height: 100px;
