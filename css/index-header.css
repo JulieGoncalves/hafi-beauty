@@ -66,6 +66,7 @@ h2 {
 /* ---BARRE-DE-NAVIGATION-------------------------------------------------------*/
 
 .navbar {
+  margin: 0.5% 0;
   height: auto;
   display: flex;
   background-color: white;
