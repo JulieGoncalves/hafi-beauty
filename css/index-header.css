@@ -12,17 +12,15 @@ body {
 
 /* ---BANIERE---------------------------------------------------------------- */
 
-header {
-  z-index: 3;
-  position: sticky;
-  top: 0px;
-}
-
 .baniere {
   /* padding: 0.8rem 0rem 1.5rem 0rem; */
   background-image: url("/images/main/fond-baniere-fleurs.2.jpg");
   background-size: 100%;
   height: 200px;
+  
+  z-index: 3;
+  position: sticky;
+  top: 0px;
 }
 
 .titres {
@@ -66,7 +64,6 @@ h2 {
 /* ---BARRE-DE-NAVIGATION-------------------------------------------------------*/
 
 .navbar {
-  /* margin: 0.5% 0; */
   height: auto;
   display: flex;
   background-color: white;
@@ -102,4 +99,30 @@ a {
   ul.menu-items {
     display: flex;
   }
+
+  header {
+    z-index: 3;
+    position: sticky;
+    top: 0px;
+  }
+}
+
+@media screen and (max-width: 480px) {
+  .logo {
+    height: 60px;
+    width: 60px;
+  }
+
+  .baniere {
+  height: 150px;
+}
+
+h1 {
+  font-size: 3.2rem;
+}
+
+h2 {
+  font-size: 1.2rem;
+  letter-spacing: 0.8rem;
+}
 }
