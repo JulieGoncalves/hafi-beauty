@@ -5,12 +5,21 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Hafibeauty_makeup</title>
+
+    <script src="js/script.js"></script>
+
+    <link rel="stylesheet" href="/css/sidenav.css" />
     <link rel="stylesheet" href="/css/index-main.css" />
     <link rel="stylesheet" href="/css/index-header.css" />
     <link rel="stylesheet" href="/css/index-footer.css" />
-    <link rel="stylesheet" href="/css/index-galerie.css" />
-    <link rel="stylesheet" href="/css/index-produits.css" />
+    <link rel="stylesheet" href="/css/galerie.css" />
+    <link rel="stylesheet" href="/css/produits.css" />
     <link rel="stylesheet" href="/css/fonts.css" />
+    <link
+      rel="icon"
+      type="image/x-icon"
+      href="/images/main/logo-rond-favicon.png"
+    />
     <link
       href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@500&display=swap"
       rel="stylesheet"
@@ -27,21 +36,17 @@
   <body>
     <header>
   <div class="baniere">
-    <img
-      class="logo"
-      src="/images/main/logo-rond.6.png"
-      alt="soins du visage"
-    />
+    <img class="logo" src="/images/main/logo-rond.6.png" alt="logo-hafi" />
     <div class="titres">
       <h1>Hafi</h1>
       <h2>beauty</h2>
       <h2 class="h2">makeup</h2>
     </div>
-    
   </div>
 
-  <div class="navbar">
+  <div id="mySidenav" class="navbar sidenav">
     <ul class="menu-items">
+      <a id="closeBtn" href="#" class="close">love</a>
       <li><a href="index.html">ACCUEIL</a></li>
       <li><a href="conseils_beaute.html">CONSEILS BEAUTÉ</a></li>
       <li><a href="galerie.html">GALERIE</a></li>
@@ -49,6 +54,14 @@
     </ul>
   </div>
   <div class="ligne"></div>
+
+  <a href="#" id="openBtn">
+    <span class="burger-icon">
+      <span></span>
+      <span></span>
+      <span></span>
+    </span>
+  </a>
 </header>
  <main>
   <div class="container-type1">

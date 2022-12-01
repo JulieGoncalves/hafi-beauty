@@ -1,0 +1,24 @@
+* {
+  padding: 0px;
+  margin: 0px;
+}
+
+.description_produits {
+  margin: 3% 10% 5% 10%;
+  justify-content: center;
+  max-width: 80%;
+}
+
+.p1 {
+  margin: 1rem 0;
+}
+
+/* ---MEDIA-QUERY------------------------------------------------------------------ */
+
+@media screen and (max-width: 480px) {
+
+  .description_produits {
+  margin: 3% 7% 5% 7%;
+  max-width: 90%;
+  }
+}
