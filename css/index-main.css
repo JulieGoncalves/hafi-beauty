@@ -15,11 +15,12 @@ body {
 
 .biographie {
   padding: 0 10% 2% 10%;
+  font-family: "roboto";
 }
 
 .signature {
   text-align: right;
-  font-family: back to school;
+  font-family: "Dancing script";
   font-size: 1.5rem;
 }
 
@@ -29,7 +30,7 @@ img {
 
 h3 {
   color: black;
-  font-family: Dancing Script;
+  font-family: "Dancing Script";
   font-size: 2rem;
   margin: 1.5rem 0rem 1.5rem;
   text-align: center;
@@ -38,7 +39,7 @@ h3 {
 h4 {
   margin: 0rem 0rem 1rem 0rem;
   font-size: 1.2rem;
-  font-family: nunito;
+  font-family: "nunito";
   font-weight: bold;
 }
 
@@ -167,7 +168,7 @@ div.superposition {
   }
 
   h3 {
-    font-size: 1.5rem;
+    font-size: 1.3rem;
     margin: 11.2px 11.2px 5px 11.2px;
   }
 

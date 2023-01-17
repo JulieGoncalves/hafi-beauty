@@ -40,16 +40,16 @@ h1 {
   color: rgb(0, 0, 0);
   margin-top: 60px;
   font-size: 42px;
-  font-family: "Nunito";
+  font-family: "Vidaloka";
 }
 
 h2 {
-  margin-top: -8px;
+  margin-top: -1rem;
   color: black;
-  font-family: Back to school regular;
-  font-size: 26px;
+  font-family: "Dancing script";
+  font-size: 34px;
   text-align: center;
-  letter-spacing: 0.2rem;
+  letter-spacing: 0.1rem;
 }
 
 /* ---BARRE-DE-NAVIGATION-------------------------------------------------------*/
@@ -78,7 +78,7 @@ ul.menu-items {
 a {
   text-decoration: none;
   color: rgb(182, 105, 105);
-  font-family: Nunito;
+  font-family: "Vidaloka";
   font-weight: bold;
   font-size: 0.8rem;
   letter-spacing: 0.1rem;
@@ -106,8 +106,8 @@ a {
     width: 78px;
   }
 
-  h1{
-    font-size: 36px;
+  h1 {
+    font-size: 2.5rem;
   }
 }
 
@@ -124,12 +124,12 @@ a {
   }
 
   h1 {
-    font-size: 22px;
-    margin-top: 62px;
+    font-size: 1.5rem;
+    margin-top: 30%;
   }
 
   h2 {
-    font-size: 15px;
-    letter-spacing: 0.2rem;
+    font-size: 1.2rem;
+    letter-spacing: 0.1rem;
   }
 }
