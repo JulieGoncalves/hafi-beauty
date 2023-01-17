@@ -13,6 +13,16 @@ body {
   margin: 0 10%;
 }
 
+.biographie {
+  padding: 0 10% 2% 10%;
+}
+
+.signature {
+  text-align: right;
+  font-family: back to school;
+  font-size: 1.5rem;
+}
+
 img {
   width: 100%;
 }
@@ -154,6 +164,21 @@ div.superposition {
 
   .except2 {
     margin-top: 2rem;
+  }
+
+  h3 {
+    font-size: 1.5rem;
+    margin: 11.2px 11.2px 5px 11.2px;
+  }
+
+  .retour-ligne {
+    max-width: 150px;
+    font-size: 1rem;
+    height: 3rem;
+  }
+
+  .position-bas {
+    margin-top: 60%;
   }
 }
 

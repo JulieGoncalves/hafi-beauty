@@ -17,7 +17,7 @@ body {
   background-image: url("/images/main/fond-baniere-fleurs.2.jpg");
   background-size: 100%;
   height: 200px;
-  
+
   z-index: 3;
   position: sticky;
   top: 0px;
@@ -25,40 +25,31 @@ body {
 
 .titres {
   display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
+  justify-content: center; /*alignement horizontal*/
 }
 
 .logo {
   top: 6%;
   position: absolute;
-  height: 120px;
-  width: 120px;
+  height: 100px;
+  width: 100px;
   margin: 0rem 1rem 1rem 1rem;
 }
 
 h1 {
-  color: black;
-  letter-spacing: 2rem;
-  font-size: 4rem;
-  text-align: center;
+  color: rgb(0, 0, 0);
+  margin-top: 60px;
+  font-size: 42px;
   font-family: "Nunito";
-  letter-spacing: 0.5rem;
-  margin-bottom: -10px;
 }
 
 h2 {
+  margin-top: -8px;
   color: black;
-  font-family: Nunito;
-  font-size: 1.5rem;
+  font-family: Back to school regular;
+  font-size: 26px;
   text-align: center;
-  letter-spacing: 0.9rem;
-  text-indent: 0.5rem;
-}
-
-.h2 {
-  letter-spacing: 0.7rem;
+  letter-spacing: 0.2rem;
 }
 
 /* ---BARRE-DE-NAVIGATION-------------------------------------------------------*/
@@ -107,6 +98,21 @@ a {
   }
 }
 
+/*--------------------------*/
+
+@media screen and (max-width: 780px) {
+  .logo {
+    height: 78px;
+    width: 78px;
+  }
+
+  h1{
+    font-size: 36px;
+  }
+}
+
+/*--------------------------*/
+
 @media screen and (max-width: 480px) {
   .logo {
     height: 60px;
@@ -114,15 +120,16 @@ a {
   }
 
   .baniere {
-  height: 150px;
-}
+    height: 150px;
+  }
 
-h1 {
-  font-size: 3.2rem;
-}
+  h1 {
+    font-size: 22px;
+    margin-top: 62px;
+  }
 
-h2 {
-  font-size: 1.2rem;
-  letter-spacing: 0.8rem;
-}
+  h2 {
+    font-size: 15px;
+    letter-spacing: 0.2rem;
+  }
 }
