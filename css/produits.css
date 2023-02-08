@@ -16,9 +16,8 @@
 /* ---MEDIA-QUERY------------------------------------------------------------------ */
 
 @media screen and (max-width: 480px) {
-
   .description_produits {
-  margin: 3% 7% 5% 7%;
-  max-width: 90%;
+    margin: 3% 7% 5% 7%;
+    max-width: 90%;
   }
-}
+ }
