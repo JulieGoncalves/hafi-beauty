@@ -1,5 +1,11 @@
 /* ---MAIN-------------------------------------------------------*/
 
+* {
+  margin: 0;
+  padding: 0;
+  text-decoration: none;
+}
+
 body {
   font-family: "Nunito", sans-serif;
   color: #333;
@@ -180,6 +186,10 @@ div.superposition {
 
   .position-bas {
     margin-top: 60%;
+  }
+
+  .ligne {
+    display:none;
   }
 }
 

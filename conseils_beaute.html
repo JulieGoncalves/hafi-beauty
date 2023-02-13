@@ -6,9 +6,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Hafibeauty_makeup</title>
 
-    <script src="js/script.js"></script>
-
-    <link rel="stylesheet" href="/css/sidenav.css"/>
+    <link rel="stylesheet" href="/css/sidenav.css" />
     <link rel="stylesheet" href="/css/index-main.css" />
     <link rel="stylesheet" href="/css/index-header.css" />
     <link rel="stylesheet" href="/css/index-footer.css" />
@@ -34,29 +32,41 @@
     <div class="titres">
       <span
         ><h1>Hafibeauty_makeup</h1>
-        <h2>La beauté est un art</h2></span>
+        <h2>La beauté est un art</h2></span
+      >
+      <img
+        class="burger-icon"
+        src="images/main/burger-icon.png"
+        alt="burger-icon"
+      />
     </div>
   </div>
 
-  <div id="mySidenav" class="navbar sidenav">
-    <ul class="menu-items">
-      <a id="closeBtn" href="#" class="close">x</a>
-      <li><a href="index.html">ACCUEIL</a></li>
-      <li><a href="conseils_beaute.html">CONSEILS BEAUTÉ</a></li>
-      <li><a href="galerie.html">GALERIE</a></li>
-      <li><a href="produits.html">PRODUITS</a></li>
-    </ul>
-  </div>
+  <nav class="navbar">
+    <div class="nav-links">
+      <ul>
+        <li><a href="index.html">ACCUEIL</a></li>
+        <li><a href="conseils_beaute.html">CONSEILS BEAUTÉ</a></li>
+        <li><a href="galerie.html">GALERIE</a></li>
+        <li><a href="produits.html">PRODUITS</a></li>
+      </ul>
+    </div>
+  </nav>
   <div class="ligne"></div>
-
-  <a href="#" id="openBtn">
-    <span class="burger-icon">
-      <span></span>
-      <span></span>
-      <span></span>
-    </span>
-  </a>
 </header>
+
+<script>
+  var aFaireDesQueDocumentDispo = function (event) {
+    const menuHamburger = document.querySelector(".burger-icon");
+    console.log(menuHamburger);
+    const navLinks = document.querySelector(".nav-links");
+    menuHamburger.addEventListener("click", () => {
+      navLinks.classList.toggle("mobile-menu");
+      console.log("j'ai bien cliqué sur le bouton");
+    });
+  };
+  window.addEventListener("DOMContentLoaded", aFaireDesQueDocumentDispo);
+</script>
 
     <div class="conseil-beaute-1">
   <div class="soin-du-matin">

@@ -52,38 +52,6 @@ h2 {
   letter-spacing: 0.1rem;
 }
 
-/* ---BARRE-DE-NAVIGATION-------------------------------------------------------*/
-
-.navbar {
-  height: auto;
-  display: flex;
-  background-color: white;
-}
-
-.navbar li {
-  text-align: center;
-  background-color: #f1d1c0;
-  border-radius: 50px;
-  padding: 0.1rem 1rem;
-  margin: 0.1em 0.4rem;
-}
-
-ul.menu-items {
-  display: inline-grid;
-  margin: 0px auto;
-  width: fit-content;
-  list-style-type: none;
-}
-
-a {
-  text-decoration: none;
-  color: rgb(182, 105, 105);
-  font-family: "Vidaloka";
-  font-weight: bold;
-  font-size: 0.8rem;
-  letter-spacing: 0.1rem;
-}
-
 /*---MEDIA-QUERY---------------------------------*/
 
 @media screen and (min-width: 480px) {
@@ -95,6 +63,10 @@ a {
     z-index: 3;
     position: sticky;
     top: 0px;
+  }
+
+  .burger-icon {
+    display: none;
   }
 }
 
