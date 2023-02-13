@@ -83,15 +83,7 @@
   left: 50%;
   z-index: 10;
   margin-bottom: -10px;
-  font-size: 0;
-  line-height: 0;
-  text-align: center;
-  -webkit-touch-callout: none;
-  -webkit-user-select: none;
-  -khtml-user-select: none;
-  -moz-user-select: none;
-  -ms-user-select: none;
-  user-select: none;
+ 
 }
 .csslider > .navigation > div {
   margin-left: -100%;
@@ -134,58 +126,9 @@
 .csslider
   > input:nth-of-type(4):checked
   ~ .navigation
-  label:nth-of-type(4):after,
-.csslider
-  > input:nth-of-type(5):checked
-  ~ .navigation
-  label:nth-of-type(5):after,
-.csslider
-  > input:nth-of-type(6):checked
-  ~ .navigation
-  label:nth-of-type(6):after,
-.csslider
-  > input:nth-of-type(7):checked
-  ~ .navigation
-  label:nth-of-type(7):after,
-.csslider
-  > input:nth-of-type(8):checked
-  ~ .navigation
-  label:nth-of-type(8):after,
-.csslider
-  > input:nth-of-type(9):checked
-  ~ .navigation
-  label:nth-of-type(9):after,
-.csslider
-  > input:nth-of-type(10):checked
-  ~ .navigation
-  label:nth-of-type(10):after,
-.csslider
-  > input:nth-of-type(11):checked
-  ~ .navigation
-  label:nth-of-type(11):after {
+  label:nth-of-type(4):after
+  { 
   opacity: 1;
-}
-
-.csslider.infinity > input:first-of-type:checked ~ .arrows label.goto-last,
-.csslider > input:nth-of-type(1):checked ~ .arrows > label:nth-of-type(0),
-.csslider > input:nth-of-type(2):checked ~ .arrows > label:nth-of-type(1),
-.csslider > input:nth-of-type(3):checked ~ .arrows > label:nth-of-type(2),
-.csslider > input:nth-of-type(4):checked ~ .arrows > label:nth-of-type(3),
-.csslider > input:nth-of-type(5):checked ~ .arrows > label:nth-of-type(4)
-/* .csslider > input:nth-of-type(6):checked ~ .arrows > label:nth-of-type(5),
-.csslider > input:nth-of-type(7):checked ~ .arrows > label:nth-of-type(6),
-.csslider > input:nth-of-type(8):checked ~ .arrows > label:nth-of-type(7),
-.csslider > input:nth-of-type(9):checked ~ .arrows > label:nth-of-type(8),
-.csslider > input:nth-of-type(10):checked ~ .arrows > label:nth-of-type(9),
-.csslider > input:nth-of-type(11):checked ~ .arrows > label:nth-of-type(10) { */ {
-  display: block;
-  left: 0;
-  right: auto;
-  -moz-transform: rotate(45deg);
-  -ms-transform: rotate(45deg);
-  -o-transform: rotate(45deg);
-  -webkit-transform: rotate(45deg);
-  transform: rotate(45deg);
 }
 
 /* ---MEDIA-QUERY------------------------------------------------------------------ */
