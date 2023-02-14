@@ -122,10 +122,7 @@
     display: none;
   }
 
-  #v1,
-  #v2,
-  #v3,
-  #v4 {
+  #v1, #v2, #v3, #v4 {
     display: block;
     /* height: 100px;
     width: 100px; */
