@@ -13,6 +13,10 @@
   margin: 1rem 0;
 }
 
+#v1 , #v2, #v3, #v4 {
+  display: flex;
+} 
+
 /* ---MEDIA-QUERY------------------------------------------------------------------ */
 
 @media screen and (max-width: 480px) {
