@@ -52,6 +52,14 @@ h2 {
   letter-spacing: 0.1rem;
 }
 
+.navbar {
+  height: auto;
+  margin: 0;
+  background-color: white;
+  position: relative; 
+  justify-content: center;
+}
+
 /*---MEDIA-QUERY---------------------------------*/
 
 @media screen and (min-width: 480px) {
